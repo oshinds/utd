@@ -1,0 +1,44 @@
+{
+  "name": "tenseed-home",
+  "version": "1.0.0",
+  "description": "10 Seed homepage",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "babel-node": "babel-node --presets='env'",
+    "dev": "nodemon ./lib/server.js --exec babel-node --presets stage-2",
+    "start": "babel-node ./lib/server.js",
+    "webpack": "webpack -wd",
+    "build": "babel src -d dist"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "author": "Osei Hinds",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.1"
+  },
+  "devDependencies": {
+    "webpack-command": "^0.2.0"
+  }
+}

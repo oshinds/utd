@@ -1,0 +1,24 @@
+.wrapper{
+  width: 340px;
+  margin: 2px auto;
+  margin-top: 70px;
+}
+
+nav{
+  opacity:0.8;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+@media screen and (min-width: 768px){
+  .wrapper{
+    width: 588px;
+    margin: 70px auto;
+  }
+
+}
