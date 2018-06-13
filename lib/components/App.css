@@ -7,6 +7,9 @@
   font-family: 'Geometos';
   src: url('/Geometos.ttf') format('truetype');
 }
+.z-negative{
+  z-index: -1;
+}
 
 body{
   color: #fff;
@@ -19,15 +22,28 @@ body{
   margin-top: 70px;
 }
 
+.carousel-caption{
+  margin: 0 57px 0 57px;
+  position:initial;
+}
+
+.carousel .item{
+  height:420px;
+  cursor:pointer;
+  margin-top:32px;
+}
 nav{
   position: fixed !important;
   top: 0;
   width: 100%;
+  background-color:#000 !important;
+  border:0 !important;
 }
 
 .navbar {
   font-family: 'Leixo';
   border-radius: 0px;
+  z-index: 100;
 }
 
 .panel{
@@ -39,7 +55,9 @@ nav{
 .panel h2{
   font-size: 12px;
 }
-
+.row{
+  cursor:pointer;
+}
 .row div{
   text-align: center
 }
@@ -53,10 +71,15 @@ nav{
   color:#28f2b4;
   font-family: 'Geometos';
 }
+.banner{
+  display:none;
+}
 @media screen and (min-width: 768px){
   .wrapper{
     width: 588px;
     margin: 70px auto;
   }
-
+  .banner{
+    display:inherit;
+  }
 }
