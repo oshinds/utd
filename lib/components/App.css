@@ -3,6 +3,11 @@
   src: url('/Leixo.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Geometos';
+  src: url('/Geometos.ttf') format('truetype');
+}
+
 body{
   color: #fff;
   background-color: #333;
@@ -25,6 +30,24 @@ nav{
   border-radius: 0px;
 }
 
+.panel{
+  background-color: inherit;
+  border: inherit;
+  font-family: 'Geometos';
+}
+ 
+.panel h2{
+  font-size: 12px;
+}
+
+.row div{
+  text-align: center
+}
+
+.row img{
+  width:125px;
+  height:100px;
+}
 @media screen and (min-width: 768px){
   .wrapper{
     width: 588px;
