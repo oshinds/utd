@@ -48,6 +48,11 @@ nav{
   width:125px;
   height:100px;
 }
+.learn{
+  margin-top:8px;
+  color:#28f2b4;
+  font-family: 'Geometos';
+}
 @media screen and (min-width: 768px){
   .wrapper{
     width: 588px;
