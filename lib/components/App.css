@@ -7,8 +7,8 @@
   font-family: 'Geometos';
   src: url('/Geometos.ttf') format('truetype');
 }
-.z-negative{
-  z-index: -1;
+.z-10{
+  z-index: 10;
 }
 
 body{
@@ -74,10 +74,25 @@ nav{
 .banner{
   display:none;
 }
+
+.carousel-indicators{
+  position: relative;
+  top:33px;
+}
+.carousel-inner{
+  height:550px;
+}
 @media screen and (min-width: 768px){
   .wrapper{
     width: 588px;
     margin: 70px auto;
+  }
+  .carousel-indicators{
+    position: absolute;
+    top:unset;
+  }
+  .carousel-inner{
+    height:unset;
   }
   .banner{
     display:inherit;
