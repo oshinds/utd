@@ -20,6 +20,7 @@
 }
 body{
   color: #fff;
+  background-color:#f1f1f1;
 }
 
 .body-bkg{
@@ -35,7 +36,8 @@ body{
 
 .navbar{
   border:0;
-  margin: 0px 0 0 0;
+  margin: 0 0 0 0;
+
 }
 static{
   background-color:transparent !important;
@@ -83,17 +85,33 @@ h2 {
   font-weight: bold;
   font-size: 60px;
 }
+.picture-panel h2{
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.picture-panel p{
+  color: #434343;
+  font-weight: 300;
+  font-size: 32px;
+}
 
 .heading-desc{
   font-size:22px;
   margin-top: -48px;
   padding-left: 688px;
 }
+.picture-panel span {
+  position: relative;
+  top: 17px;
+  left: 23px;
+}
 
 hr.colored {
   border: 0;   /* in order to override TWBS stylesheet */
-  height: 5px;
-
+  height: 9px;
+  margin-top:0;
   background: -moz-linear-gradient(left, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);  /* FF3.6+ */
   background: -webkit-linear-gradient(left, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(left, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* Opera 11.10+ */
@@ -102,6 +120,7 @@ hr.colored {
 }
 div.utdBlue {
   background-color: #0E1125;
+  display: inline-block;
 }
 div.footer h3 {
   float: left;
