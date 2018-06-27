@@ -127,6 +127,17 @@ hr.colored {
   height: 530px;
 }
 */
+.join-header{
+  padding: 137px 0 0 215px;
+}
+.join-heading-desc{
+  font-size:22px;
+  margin-top: -48px;
+  padding-left: 688px;
+}
+button.joinbtn {
+  background-color: #1F29AA;
+}
 div.utdBlue {
   background-color: #0E1125;
   display: inline-block;
