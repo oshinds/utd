@@ -1,4 +1,9 @@
-
+.black{
+  color:#000;
+}
+.gray{
+  color:#434343;
+}
 .z-10{
   z-index: 10;
 }
