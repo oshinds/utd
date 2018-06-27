@@ -4,12 +4,19 @@
 .gray{
   color:#434343;
 }
+.white {
+  color: #fff;
+}
 .z-10{
   z-index: 10;
 }
 .margin-200{
   margin-left: 200px;
   margin-right:200px;
+}
+.margin-100{
+  margin-left: 100px;
+  margin-right:100px;
 }
 body{
   color: #fff;
@@ -30,6 +37,7 @@ body{
 .navbar{
   border:0;
   margin: 0 0 0 0;
+
 }
 static{
   background-color:transparent !important;
@@ -110,6 +118,25 @@ hr.colored {
   background: -ms-linear-gradient(left, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* IE10+ */
   background: linear-gradient(to right, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* W3C */
 }
+div.utdBlue {
+  background-color: #0E1125;
+  display: inline-block;
+}
+div.footer h3 {
+  float: left;
+  width: 60%;
+}
+div.footerLinks {
+  padding-bottom: 40px;
+}
+div.footerLinks a {
+  padding-right: 25px;
+  color: #fff;
+}
+div.footer .rightLinks {
+  float: right;
+}
+
 @media screen and (min-width: 768px){
 
 }
