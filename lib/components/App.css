@@ -72,6 +72,10 @@ fixed .navbar-default .navbar-nav>li>a{
 h1 {
   font-size: 104px;
 }
+h2 {
+  font-weight: bold;
+  font-size: 60px;
+}
 
 .heading-desc{
   font-size:22px;
