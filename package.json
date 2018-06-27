@@ -1,7 +1,7 @@
 {
-  "name": "tenseed-home",
+  "name": "utd-home",
   "version": "1.0.0",
-  "description": "10 Seed homepage",
+  "description": "UTD homepage",
   "main": "lib/server.js",
   "directories": {
     "lib": "lib"
@@ -20,7 +20,7 @@
       "stage-2"
     ]
   },
-  "author": "Osei Hinds",
+  "author": "William Cahill & Osei Hinds",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
@@ -31,12 +31,13 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
+    "file-loader": "^1.1.11",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
-    "sendgrid": "^4.2.0",
     "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "webpack": "^4.10.1"
   },
   "devDependencies": {
