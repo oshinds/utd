@@ -1,5 +1,9 @@
 # utd
 
+$ npm install  
+
+to gather all dependencies then....
+
 
 to run, open separate terminals in the working directory and run:
 
