@@ -173,6 +173,104 @@ div.footer .rightLinks {
   float: right;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 480px){
+  /*For mobile screens*/
+    .header{
+      padding: 105px 0 0 0px;
+    }
 
-}
+    h1 {
+        font-size: 60px;
+    }
+
+    .heading-desc {
+        font-size: 20px;
+         margin-top: 0; 
+        padding: 46px;
+    }
+
+    .margin-200 {
+         margin-left: 0; 
+         margin-right: 0; 
+    }
+
+    .info-panel{
+      /*width: 436px !important; */
+      /*maybe for full*/
+      width: 393px !important; 
+      height:454px !important;
+    }
+
+    .info-panel-left{
+      margin-right: 0px !important;
+      margin-left: -0px !important;
+    }
+
+    .info-panel-right{
+      margin-left: 0px !important;
+      margin-right: -38px !important;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: #434343;
+    }
+
+    .picture-panel h2{
+      color: black;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .picture-panel p{
+      color: #434343;
+      font-weight: 300;
+      font-size: 27px;
+    }
+    .picture-panel
+    {
+      margin: 5px 0 !important;
+      height:unset !important;
+      width:100vw !important
+    }
+
+    .full-wrapper{
+          width: unset !important;
+          margin: unset !important;
+    }
+    .full-wrapper p{
+      font-size: 25px !important;
+    }
+    .full{
+      
+    }
+    .full p {
+      width : 300px !important;
+      height: 289px !important;
+      margin-left: 8px;
+    }
+    .glyphicon
+    {
+      /*margin: 2px 38px !important;*/
+    }
+    .mission{
+      margin : unset !important;
+      margin-right:30px !important;
+    }
+    .full .full-desc-para{
+      height: unset !important;
+    }
+
+    .breakdown-panel{
+      width: 334px !important;
+      margin-top: -105px !important;
+    }
+    .join-heading-desc {
+      font-size: 19px;
+      margin-top: 48px;
+      padding-left: unset !important; 
+    }
+    .margin-100{
+      margin-left: unset !important;
+      margin-right: unset !important;
+    }
+} 
