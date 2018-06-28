@@ -118,25 +118,35 @@ hr.colored {
   background: -ms-linear-gradient(left, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* IE10+ */
   background: linear-gradient(to right, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%); /* W3C */
 }
-/*
+
 .join-bkg{
   display: inline-block;
-  background-image: url("../../public/img-join-our-team.jpg");
-  position: relative;
-  width: 100vw;
-  height: 530px;
+  background-image: url("../../public/img-join-our-team.jpg"), linear-gradient( rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48));
+  /*background-blend-mode: multiply;*/
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  min-width: 100%;
+  min-height: 520px;
+
 }
-*/
-.join-header{
-  padding: 137px 0 0 215px;
+.join-header {
+  margin-top: 75px;
+  display: inline-block;
+}
+.join-header h1{
+  font-size: 75px;
 }
 .join-heading-desc{
   font-size:22px;
-  margin-top: -48px;
+  margin-top: 48px;
   padding-left: 688px;
+  float: right;
 }
 button.joinbtn {
   background-color: #1F29AA;
+  border: none;
+  padding: 20px 33px;
 }
 div.utdBlue {
   background-color: #0E1125;
