@@ -274,3 +274,10 @@ div.footer .rightLinks {
       margin-right: unset !important;
     }
 } 
+
+
+
+@media screen and (max-width: 768px) {
+     /* start of medium tablet styles */
+
+}
