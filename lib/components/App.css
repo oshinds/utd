@@ -97,6 +97,12 @@ h2 {
   font-size: 32px;
 }
 
+.full p{
+  font-size:23px;
+  width: 500px;
+  float:left;
+}
+
 .heading-desc{
   font-size:22px;
   margin-top: -48px;
