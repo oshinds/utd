@@ -9,7 +9,7 @@
   "scripts": {
     "babel-node": "babel-node --presets='env'",
     "dev": "nodemon ./lib/server.js --exec babel-node --presets stage-2",
-    "start": "babel-node ./lib/server.js",
+    "start": "nodemon ./lib/server.js",
     "webpack": "webpack -wd",
     "build": "babel src -d dist"
   },

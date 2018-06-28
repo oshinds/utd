@@ -198,7 +198,12 @@ div.footer .rightLinks {
       /*width: 436px !important; */
       /*maybe for full*/
       width: 393px !important; 
-      height:454px !important;
+      height: min-content !important;
+      padding-bottom: 14px;
+    }
+
+    info-panel hr{
+      margin-bottom: 0
     }
 
     .info-panel-left{
@@ -272,6 +277,9 @@ div.footer .rightLinks {
     .margin-100{
       margin-left: unset !important;
       margin-right: unset !important;
+    }
+    .picture-panel hr{
+      margin-bottom: 0 !important;
     }
 } 
 
